@@ -1,0 +1,83 @@
+<!--기본적인 HTML 문서 작성 (index.html)-->
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>내 프로필</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                text-align: center;
+            }
+            .profile-container {
+                width: 50%;
+                margin: 50px auto;
+                padding: 20px;
+                background-color: white;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            }
+            img {
+                width: 150px;
+                border-radius: 50%;
+                background-color: cornflowerblue;
+            }
+            .prayer-container {
+                display: flex;
+                justify-content: center;
+            }
+            #prayer {
+                position: relative;
+                text-align: start;
+                background-color: lightgray;
+                padding: 8px;
+            }
+            #stamp {
+                position: absolute;
+                top: -5px;
+                right: -20px;
+                z-index: 99;
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                background-color: rgba(255, 0, 0, 0.5);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .amen {
+                width: 100%;
+                text-align: right;
+            }
+
+        </style>
+    </head>
+    <body>
+    <div class="profile-container">
+        <h1>안녕하세요, 저는 유성욱입니다!</h1>
+        <img src="SungWookYoo.png" alt="프로필 사진">
+        <p>프론트엔드 개발을 배우는 중입니다. 🚀</p>
+        <div class="prayer-container">
+            <div id="prayer">
+                하늘에 계신 우리 아버지여<br/>
+                이름이 거룩히 여김을 받으시오며<br/>
+                나라가 임하옵시며<br/>
+                뜻이 하늘에서 이루어진 것 같이<br/>
+                땅에서도 이루어지이다.<br/>
+                오늘날 우리에게 일용할 양식을 주시옵고<br/>
+                우리가 우리에게 죄 지은 자를 사하여 준 것 같이<br/>
+                우리의 죄를 사하여 주시옵고<br/>
+                우리를 시험에 들게 하지 마시옵고<br/>
+                다만 악에서 구하옵소서.<br/>
+                나라와 권세와 영광이<br/>
+                아버지께 영원히 있사옵나이다.<br/>
+                <p class="amen">아멘.</p>
+                <div id="stamp">
+                    STAMP
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
