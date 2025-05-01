@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JS Connect</title>
+        <style>
+            body { font-family: Arial, sans-serif; text-align: center; }
+            .card {
+                width: 300px;
+                margin: 20px auto;
+                padding: 20px;
+                background: lightgray;
+                border-radius: 10px;
+            }
+            .new-container {
+                width: fit-content;
+                margin: 20px auto;
+            }
+            .new-box {
+                width: 400px;
+                padding: 10px;
+                background: lightblue;
+                border-radius: 30px;
+            }
+            .user-card {
+                padding: 10px;
+                background: beige;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h2>👋 안녕하세요!</h2>
+            <p id="info">이름과 나이를 입력해주세요.</p>
+            <button onclick="updateInfo()">정보 입력</button>
+        </div>
+        <div class="card">
+            <h2>곱하기를 해볼까요?</h2>
+            <p id="multiplication">버튼을 눌러 숫자를 써주세요</p>
+            <button onclick="multiply()">숫자 곱하기</button>
+        </div>
+        <div class="card">
+            <h1>숫자 증가/감소</h1>
+            <div class="counter" id="counter">0</div>
+            <div class="buttons">
+                <button onclick="increase()">Up</button>
+                <button onclick="decrease()">Down</button>
+            </div>
+        </div>
+        <button onclick="putHTML()">HTML 만들기</button>
+        <div id="put-HTML" class="new-container">
+
+        </div>
+        <button onclick="displayUsers()">유저 불러오기</button>
+        <div id="user-container">
+
+        </div>
+        <script src="03_JS_connect.js"></script>
+    </body>
+</html>
