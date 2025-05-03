@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.profile-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+img {
+    width: 150px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+.prayer-container {
+    display: flex;
+    justify-content: center;
+}
+#prayer {
+    position: relative;
+    text-align: start;
+    background-color: lightgray;
+    padding: 8px;
+}
+#stamp {
+    position: absolute;
+    top: -5px;
+    right: -20px;
+    z-index: 99;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amen {
+    width: 100%;
+    text-align: right;
+}
+#food-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    p {
+        margin: 0;
+    }
+}
