@@ -9,6 +9,6 @@ async function getUsers() {
 export default async function Home() {
 
   return (
-      </>
+      <></>
   );
 }
