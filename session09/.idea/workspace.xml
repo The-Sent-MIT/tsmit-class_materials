@@ -1,4 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="ChangeListManager">
+    <list default="true" id="84525902-c8a8-4d4a-ba9f-33cf4c68e7d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/.idea/09_exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/app/dogs/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/components/DogList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/components/HomeClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/components/SearchBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/next.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/public/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/public/globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/public/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_exercise/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/09_nextjs_ssr_basic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/user_list_nextjs/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/user_list_nextjs/app/page.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SungWook1207"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/The-Sent-MIT/tsmit-class_materials.git",
+    "accountId": "383a58d3-9355-45dc-b846-3b283c09d21e"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2xFUip8cteqv2fplBXQBcOxqb8T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84525902-c8a8-4d4a-ba9f-33cf4c68e7d1" name="Changes" comment="" />
+      <created>1747533445700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747533445700</updated>
+      <workItem from="1747533447228" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>
