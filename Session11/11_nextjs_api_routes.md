@@ -88,8 +88,7 @@ _**supabase client (favorite breeds)는 session 12에서 다룰 예정**_
 1. pages/api/dogs/index.js 생성 → axios로 외부 API 호출
 2. app/dogs/layout.tsx에서는 `process.env.NEXT_PUBLIC_BASE_URL}/api/dogs`로 데이터 요청
 3. 전체 품종 리스트 출력
-4. pages/api/dogs/[id] 루트도 구현하기
-5. 기존 URL이 아니라 original dog breed api를 사용하고 services/dogService.ts에서 데이터 가공하기
+4. 기존 URL이 아니라 original dog breed api를 사용하고 services/dogService.ts에서 데이터 가공하기
 
 - useEffect를 사용해서 CSR 방식으로 불러오면 browser에서 확인 가능
 
@@ -104,3 +103,5 @@ _**supabase client (favorite breeds)는 session 12에서 다룰 예정**_
 
 ### ✅ 과제
 - Supabase, CRUD methods와 POST GET PUT PATCH DELETE 조사/이해해오기
+- `app/api/dogs/[id]` 루트를 구현하여서 `app/breeds/[id]/page.tsx`에서 불러오기.
+  - `DogBreedService.fetchDogBreedById` 함수와 `DogBreedsById` interface를 사용해야 함.
